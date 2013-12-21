@@ -160,21 +160,21 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Mac */
 #define KC_MAC_FN 0x1D0
-#define KC_MAC_SCREENLIGHTD 0x47
-#define KC_MAC_SCREENLIGHTU 0x48
-#define KC_MAC_EXPOSEALL 0xA0
-#define KC_MAC_LAUNCH 0x3D
-#define KC_MAC_KEYBOARDLIGHTU 0x4E
-#define KC_MAC_KEYBOARDLIGHTD 0x4C
+#define KC_MAC_SCREENLIGHTD 0x69
+#define KC_MAC_SCREENLIGHTU 0x6A
+#define KC_MAC_EXPOSEALL 0x6B
+#define KC_MAC_LAUNCH 0x6C
+#define KC_MAC_KEYBOARDLIGHTD 0x6D
+#define KC_MAC_KEYBOARDLIGHTU 0x6E
 
 /* Mac short keys */
 #define KC_MACFN  KC_MAC_FN
-#define KC_MACSCU KC_MAC_SCREENLIGHTU
 #define KC_MACSCD KC_MAC_SCREENLIGHTD
+#define KC_MACSCU KC_MAC_SCREENLIGHTU
 #define KC_MACEXP KC_MAC_EXPOSEALL
 #define KC_MACLAU KC_MAC_LAUNCH
-#define KC_MACKBU KC_MAC_KEYBOARDLIGHTU
 #define KC_MACKBD KC_MAC_KEYBOARDLIGHTD
+#define KC_MACKBU KC_MAC_KEYBOARDLIGHTU
 
 /* USB HID Keyboard/Keypad Usage(0x07) */
 enum hid_keyboard_keypad_usage {
