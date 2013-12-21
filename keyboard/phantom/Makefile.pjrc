@@ -106,3 +106,6 @@ iso_150: all
 
 7bit: OPT_DEFS += -DLAYOUT_7BIT
 7bit: all
+
+ansi_mac: OPT_DEFS += -DLAYOUT_ANSI_MAC
+ansi_mac: all

@@ -120,6 +120,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #include "keymap_iso.h"
 #elif defined(LAYOUT_ANSI_150)
     #include "keymap_ansi_150.h"
+#elif defined(LAYOUT_ANSI_MAC)
+    #include "keymap_ansi_mac.h"
 #else
     #include "keymap_ansi.h"
 #endif
