@@ -86,7 +86,7 @@ ISR(TIMER1_COMPA_vect)
     
     // LED on
     if (timer.pwm.count == 0) {
-        led_set(1<<USB_LED_CAPS_LOCK);
+        led_set(1<<USB_LED_SCROLL_LOCK);
     }
     // LED off
     if (timer.pwm.count == pgm_read_byte(&breathing_table[timer.pwm.index])) {
